@@ -17,9 +17,6 @@
 {
        var chiffre1 = prompt("Saisissez un premier nombre entier :", "")
        var chiffre2 = prompt("Saisissez un deuxième nombre entier :", "")
-       //var addition = parsInt(chiffre1) + parsInt(chiffre2);
-       //console.log("L'addition des deux nombres est égale à : " + addition);
-       //document.write("L'addition des deux nombres est égale à : " + parsInt(addition));
        
        alert('L addition de nombre est égale à : '+(parseInt(chiffre1)+parseInt(chiffre2) ) );
        alert('Sinon c est une concaténation : '+(chiffre1+chiffre2));
